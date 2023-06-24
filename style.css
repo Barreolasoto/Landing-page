@@ -1,0 +1,175 @@
+/* header */
+.first-section {
+    background-color: #1f2937;
+    height: 400px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.left-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.right-links {
+    font-size: 18px;
+    
+}
+
+
+.left-logo, .right-links {
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+
+    list-style-type: none;
+}
+
+/*random information section*/
+.information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    margin: auto;
+    margin-top: 95px;
+}
+
+.main-title, .bottom-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 4px 16px;
+    border-radius: 40px;
+    border: #E5E7EB solid;
+
+}
+
+.image {
+    margin: auto;
+    margin-top: 95px;
+}
+
+
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-info {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+/*inspirational quote*/
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7em 13em;
+    background-color: #E5E7EB;
+}
+
+.quote p {
+   align-self: flex-end;
+   font-weight: bolder;
+   font-size: 24px;
+   color: #1f2937;
+
+}
+
+.quote em {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+/* Take action card */
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em;
+    width: 100%;
+    background-color: #3882f6;
+}
+
+strong {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.card-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.card-button {
+    border-radius: 40px;
+    padding: 16px 32px;
+    border: #E5E7EB solid 3px;
+}
+
+/*copyright*/
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    width: 100%;
+    margin: auto;
+    background-color: #1f2937;
+}
+
+.copyright-text {
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+
